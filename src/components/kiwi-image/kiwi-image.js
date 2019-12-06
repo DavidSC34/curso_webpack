@@ -7,10 +7,10 @@ class KiwiImage{
      const img = document.createElement('img');
      img.src = Kiwi;
      img.alt = 'Kiwi';
-     img.classLsit.add('kiwi-image');
+     img.classList.add('kiwi-image');
 
      const bodyElement = document.querySelector('body');
-     bodyElement.appenChild(img);
+     bodyElement.appendChild(img);
   }
 }
 
