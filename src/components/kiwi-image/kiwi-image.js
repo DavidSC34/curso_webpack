@@ -1,4 +1,4 @@
-import Kiwi form './Kiwi.jpg';
+import Kiwi from './Kiwi.jpg';
 import './kiwi-image.css';
 
 class KiwiImage{
@@ -14,4 +14,4 @@ class KiwiImage{
   }
 }
 
-export defualt KiwiImage;
+export default KiwiImage;
